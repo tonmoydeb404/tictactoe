@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/9f927ae63d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>TikTacToe</title>
+</head>
+
+<body onload="startGame()">
+    <nav class="nav">
+        <div class="switch" onclick="changeMode()"><i class="fas fa-user"></i></div>
+    </nav>
+    <main class="container board">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </main>
+
+    <button class="btn">X's Turn</button>
+    <span class="credit">Made With Love By <a href="https://github.com/tdtonmoydeb" class="link" target="_blank">Tonmoy</a></span>
+    <div class="msg show">
+        <b class="msg-txt">Lets Play</b>
+        <button class="msg-btn" onclick="startGame()">Continue</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
